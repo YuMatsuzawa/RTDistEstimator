@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="MS932" standalone="no"?>
+<jardesc>
+    <jar path="C:/Users/Matsuzawa/Desktop/EM.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/EM/build.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" mainClassHandleIdentifier="=EM/src&lt;matz{EM.java[EM" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <file path="/EM/.classpath"/>
+        <folder path="/EM/.settings"/>
+        <file path="/EM/.project"/>
+        <javaElement handleIdentifier="=EM/src"/>
+    </selectedElements>
+</jardesc>
