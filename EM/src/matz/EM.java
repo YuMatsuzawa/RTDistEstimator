@@ -1,15 +1,17 @@
 package matz;
 
-/* EMアルゴリズムでモデル推定するクラス。
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * EMアルゴリズムでモデル推定するクラス。
  * これはGMM（混合正規分布）。clusterMaxは本来的にはパラメータなのでここを回して、
  * それも含めて情報量基準か何かで最適モデルを決めないといけないはず。
  * このクラスは実行時間はそれほど大きくない。ただし、clusterMaxを大きくすると鬼のような実行時間になると思われる
  * とりあえずRTCountの出力文法に合わせたので、retweetXXXXXXXXXXXXディレクトリ内のXXXXXXXXXXXX.csvファイルをすべて読み込むはず。
  */
-
-import java.io.*;
-import java.util.*;
-
 public class EM {
 	private static int clusterMax = 3;
 	private static int maxIter = 30;
